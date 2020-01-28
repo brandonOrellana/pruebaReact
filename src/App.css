@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+#imagen{
+    background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 10px 10px;
+}
+
+#contenedor1{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  height: 100%;
+  border-color: black;
+}
+
+#contenedor2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap:nowrap;
+  
+}
+#item1 {
+  width: 15%;
+  /*background-image: url("logo192.png");*/
+  background-repeat: no-repeat;
+}
+ #item2 {
+  flex-basis:50%;
+  background-color: #0084B6;
+  border-color: black;
+}
+ #item3 {
+  flex-basis:50%;
+  background-color: #008CC1;
+}
+
+*{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card{
+  width:15rem;
+  display:inline-block;
+  margin-right:-4px;
+  text-align: center;
+}
+.badge {
+  width:10rem;
+}
+.btn btn-primary{
+  width:6rem;
+}
